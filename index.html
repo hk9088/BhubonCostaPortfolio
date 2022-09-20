@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4807e4f4b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#researches">Researches</a></li>
+                    <li><a href="#awards">Awards & Achievements</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fas fa-times" onclick="close_menu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="open_menu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <h1>Hi, I'm Bhubon Costa</h1>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </div>
+<!-- ----------------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        A flexible data analyst, proficient in documenting, interpreting, and analyzing data in a dynamic environment.
+With an academic background in engineering, I have a strong command and familiarity with all aspects of Excel & VBA programming. Preparing in-depth documents and reports while at the same time managing other data analysis responsibilities. I myself prefer a challenging environment where I can express my competency with strong confidence and professionalism.
+                    </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span><b>Industry knowledge</b></span><br>
+                                <br><b>- Maxsurf</b>
+                                <br><b>- Supply Chain Management</b>
+                                <br><b>- 3D Modeling</b>
+                                <br><b>- Industrial Design</b>
+                                <br><b>- Product Design</b>
+                                <br><b>- Teaching </b>
+                                <br><b>- Data Analysis</b>
+                            </li>
+
+                            <li>
+                                <span><b>Tools & Technology</b></span><br>
+                                <br><b>- AutoCAD</b>
+                                <br><b>- Rhino</b>
+                                <br><b>- Microsoft Office</b>
+                                <br><b>- C (Programming Language)</b>
+                                <br><b>- HTML & CSS</b>
+                                <br><b>- Rhino 3D </b>
+                                <br><b>- Visual Basic for Applications (VBA)</b>
+                            </li>
+
+                            <li>
+                                <span><b>Interpersonal Skills</b></span><br>
+                                <br><b>- Public Speaking</b>
+                                <br><b>- Team Leadership</b>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <img src="/images/exeldemy.png" alt=""><span><b>ExelDemy</b></span><br><b>Full-Time</b><br><br><b>Team Leader</b><br>Jun 2022 - Present<br><br><b>Excel VBA Content Developer</b><br>Dec 2021 - Present<br>
+                                <br>- Analyzing complex data to develop automated reporting with VBA and Excel.
+                                <br>- Creating macros to work with a huge amount of data and for Excel reports.
+                                <br>- Developing VBA programs to perform tasks automatically.
+                                <br>- Dealing with advanced Excel capabilities – formulas, tables, and graphs
+                            </li>
+                            
+                            <li>
+                                <br><br><img src="/images/meghna.jpg" alt=""><span><b>Meghna Group of Industries</b></span><br><b>Full-Time</b><br><br><b>Assistant Engineer</b><br>Aug 2020 - Feb 2021<br><br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <img src="/images/buet.png" alt=""><span><b>Bangladesh University of Engineering and Technology</b></span><br><b>Bachelor's degree, Naval Architecture and Marine Engineering</b><br>2014 - 2018<br><br><b>C.G.P.A: 3.02</b>
+                                <br>Activities and societies: Undergraduate Research
+                                <br>
+                                <br>Thesis Title: "A thesis on Automated Handling of port Containers Using Machine Learning"<br>(2017 - 2018)<br>
+
+                            </li>
+                            
+                            <li>
+                                <br><br><img src="/images/notre-dame.jpg" alt=""><span><b>Notre Dame College</b></span><br><b>Higher Secondary Certificate, Science.</b><br>2011 - 2013<br><br><b>Grade: Grade Point Average (G.P.A.) = 5.00</b><br>Activities and societies: Active Member of Math Club<br><br>
+                            </li>
+                            
+                            <li>
+                                <br><br><img src="/images/ahsania.png" alt=""><span><b>Ahsania Mission School & College</b></span><br><b>Secondary School Certificate, Science.</b><br>2009 - 2010<br><br><b>Grade: Grade Point Average (G.P.A.) = 5.00</b><br>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ------------------ Projects ------------------ -->
+    <div id ="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+
+            <div class="projects-list">
+                <div>
+                    <h2>Web Project</h2>
+                    <p>
+                        Web Project Test
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+    <!-- ---------------- Researches --------- -->
+    <div id="researches">
+        <div class="container">
+            <h1 class="sub-title">Researches</h1>
+            <div class="research-list">
+
+                <div class="research">
+                    <img src="/images/research-1.png" alt="" class="">
+                    <div class="layer">
+                        <h3>AUTOMATED HANDLING OF PORT CONTAINERS USING MACHINE LEARNING</h3>
+                        <p>The accuracy of the built machine is more than 98% for detecting
+                            containers. However, it is possible to increase the accuracy of the
+                            prototype machine up to 100% using high quality equipment and machine
+                            parts</p>
+                        <a href="files/a-thesis-on-automated-handling-of-port-containers-using-machine-learning_compress.pdf" target="_blank"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-- ----------------Awards & Achievements--------- -->
+    <div id="awards">
+        <div class="container">
+            <h1 class="sub-title">Awards & Achievements</h1>
+
+            <div class="award-list">        <!-- row--- -->
+                <div>
+                    <h2>ISCEA PTAK PRIZE GLOBAL CASE COMPETITION 2017 Scholarship Winner </h2>
+                    <h3>Issued by ISCEA Bangladesh · Jun 2017</h3>
+                    <p>Associated with Bangladesh University of Engineering and Technology</p>
+                    <p>
+                        ISCEA - (International Supply Chain Education Alliance) conducts many workshops to improve the knowledge of Manufacturing and Service industry professionals worldwide. ISCEA is the governing body for the Ptak Prize which held a global case competition on supply chain management; our team BUET-​01​​1​0-17 got selected for 70% scholarship. 
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+            <div class="award-list">        <!-- row--- -->
+                <div>
+                    <h2>BUET Technical Scholarship</h2>
+                    <h3>2014-2018</h3>
+                    <p>Associated with Bangladesh University of Engineering and Technology</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <!-- ----------------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>bhuboncosta94@gmail.com</p>
+                    <p>+8801611-355787</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/bhubon.costa" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/bhubon-costa-a057601a6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="files/my-cv.pdf" class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name ="Name" placeholder="Your Name" required>
+                        <input type="email" name ="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="view-count">
+                <p id="count"></p>
+            </div>
+            <p>Developed By Hridoy Hossian</p>
+        </div>
+    </div>
+    <script src="\js\index.js"></script>
+    <script src="\js\contact.js"></script>
+    <script src="\js\counter.js"></script>
+    
+</body>
+</html>
