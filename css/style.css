@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Mulish', sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -147,6 +147,9 @@ nav ul li a:hover::after{
 }
 .projects-list h2{
     padding: 20px 0px 20px;
+}
+.projects-list h5{
+    margin-top: -20px;
 }
 .projects-list div{
     color: #fff;
@@ -373,6 +376,16 @@ form .btn2{
     margin-top: 20px;
     color: #fff;
 }
+#msg{
+    color: #ff004f;
+    margin-top: -5px;
+    display: block;
+}
+#count{
+    position: absolute;
+    left: 10px;
+}
+
 /* ----------------------css for small screen------------------ */
 nav .fas{
     display: none;
@@ -454,17 +467,15 @@ nav .fas{
     .contact-left,.contact-right{
         flex-basis: 100%;
     }
-}
-#msg{
-    color: #ff004f;
-    margin-top: -5px;
-    display: block;
-}
-#count{
-    position: absolute;
-    left: 10px;
-}
 
+    #count{
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .copyright p{
+        font-size: 14px;
+    }
+}
 
 
 
