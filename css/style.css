@@ -376,6 +376,9 @@ form .btn2{
     margin-top: 20px;
     color: #fff;
 }
+.copyright a{
+    text-decoration: none;
+}
 #msg{
     color: #ff004f;
     margin-top: -5px;
