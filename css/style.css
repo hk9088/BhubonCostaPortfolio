@@ -376,7 +376,7 @@ form .btn2{
     margin-top: 20px;
     color: #fff;
 }
-.copyright a{
+.copyright a, a::after{
     text-decoration: none;
     color: #fff;
 }
